@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <br /><br />
+    <br/><br />
     <form action="index.php" method="post">
       <label for="war">Radius in px:</label>
       <input
