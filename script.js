@@ -34,8 +34,8 @@ form.addEventListener("submit", (event) => {
     text.style.display = "block";
   } else {
     // Set the width and height of the circle element
-    circle.style.width = diameter + "px";
-    circle.style.height = diameter + "px";
+    circle.style.width = `${diameter}px`;
+    circle.style.height = `${diameter}px`;
 
     // Display text if circle is too big
     text.style.display = "none";
