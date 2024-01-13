@@ -1,0 +1,17 @@
+#circle {
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  transition: all 550ms;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  max-height: 150vh;
+  margin-bottom: 15vh;
+}
+p {
+  display: none;
+}
