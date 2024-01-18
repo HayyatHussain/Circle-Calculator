@@ -37,7 +37,7 @@ form.addEventListener("submit", (event) => {
     circle.style.width = `${diameter}px`;
     circle.style.height = `${diameter}px`;
 
-    // Display text if circle is too big
+    // Hide text if the circle is small enough
     text.style.display = "none";
   }
 
